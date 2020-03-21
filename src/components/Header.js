@@ -8,8 +8,10 @@ class Header extends React.Component {
         return (
             <AppBar position="static">
                 <Toolbar>
-                    <p>Hi, Dean Test User</p>
-                    <img src="/logo.jpg" alt="Company Logo"/>
+                    <p style={{width: '50%', marginLeft: '8rem'}}>Hi, Dean Test User</p>
+                    <div style={{width: '50%', textAlign: 'right'}}>
+                        <img src="/logo.jpg" alt="Company Logo"/>
+                    </div>
                 </Toolbar>
             </AppBar>
         );
